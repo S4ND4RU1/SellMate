@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/userCreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Creation" />
+
+    <Button
+        android:id="@+id/customerCreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Creation" />
+
+    <Button
+        android:id="@+id/salesmenCreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salesmen Creation" />
+
+    <Button
+        android:id="@+id/itemCreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Creation" />
+
+    <Button
+        android:id="@+id/invoiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice" />
+
+    <Button
+        android:id="@+id/reportsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reports" />
+
+</LinearLayout>
