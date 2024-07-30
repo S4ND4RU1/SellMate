@@ -28,7 +28,6 @@
         <activity android:name=".ItemCreationActivity" />
         <activity android:name=".InvoiceActivity" />
         <activity android:name=".ReportsActivity" />
-
     </application>
 
 </manifest>
